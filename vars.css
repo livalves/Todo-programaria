@@ -1,0 +1,12 @@
+:root {
+    --cor-1: #f6d5db;
+    --cor-3: #e4889b;
+    --cor-7: #a22e52;
+    --cor-font: #882949;
+    --cor-font-card: #5d4f51;
+
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --radius-small: 8px;
+    --radius-normal: 12px;
+}
