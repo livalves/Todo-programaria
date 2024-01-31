@@ -13,28 +13,20 @@
         <h1>Tarefas</h1>
 
         <section>
-            <div class="lista">
+            <div class="lista" id="listaProf">
                 <h2>Profissionais</h2>
-                <div class="card">
-                    <p>card</p>
-                    <button class="button">Excluir</button>
-                </div>
             </div>
 
-            <div class="lista">
+            <div class="lista" id="listaLazer">
                 <h2>Lazer</h2>
-                <div class="card">
-                    <p>card</p>
-                    <button class="button">Excluir</button>
-                </div>
             </div>
         </section>
 
         <div class="form">
-            <input type="text" placeholder="Qual tarefa deseja adicionar?">
+            <input type="text" id="valor" placeholder="Qual tarefa deseja adicionar?">
             <div class="box-button">
-                <button class="button">Profissional</button>
-                <button class="button">Lazer</button>
+                <button class="button" onclick="salvar('listaProf')">Profissional</button>
+                <button class="button" onclick="salvar('listaLazer')">Lazer</button>
             </div>
         </div>
     </main>
